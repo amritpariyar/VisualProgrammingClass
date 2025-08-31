@@ -16,7 +16,10 @@ namespace Calculator
     {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
-      Application.Run(new frmDashboard());
+      //Application.Run(new frmDashboard()); ctrl K+C to comment
+      // ctrl K+U to uncomment
+      Form dashboardForm = new Dashboard();
+      Application.Run(dashboardForm);
     }
   }
 }

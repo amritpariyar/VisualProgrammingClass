@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Resources.ResXFileRef;
 
 namespace Calculator
 {
@@ -138,12 +139,61 @@ namespace Calculator
 
             if (op == '+')
             {
-              int result= fistValue + secondValue;
+              int result = fistValue + secondValue;
               textBox1.Text = result.ToString();
             }
           }
         }
       }
+    }
+
+    private void stopWatchToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      // Add debugging and error handling to identify the issue
+      try
+      {
+        StopwatchForm mywatch = new StopwatchForm();
+        
+        // Ensure the parent form is properly configured as MDI container
+        if (!this.IsMdiContainer)
+        {
+          this.IsMdiContainer = true;
+        }
+        
+        // Set MDI parent BEFORE setting other properties
+        mywatch.MdiParent = this;
+        
+        // Remove conflicting properties that might prevent MDI display
+        mywatch.WindowState = FormWindowState.Normal;
+        mywatch.StartPosition = FormStartPosition.CenterParent; // Changed from Manual
+        
+        // Show the form
+        mywatch.Show();
+        
+        // Optional: Bring to front and focus
+        mywatch.BringToFront();
+        mywatch.Focus();
+      }
+      catch (Exception ex)
+      {
+        MessageBox.Show($"Error opening Stopwatch: {ex.Message}", "Error", 
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+      }
+    }
+
+    private void unitConverterToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+      UnitConverterForm myConverter = new UnitConverterForm();
+      myConverter.MdiParent = this;
+      myConverter.WindowState = FormWindowState.Normal; // Explicitly set
+      myConverter.StartPosition = FormStartPosition.Manual; // Manual positioning
+      myConverter.Location = new Point(0, 0); // Position at top-left
+      myConverter.Show();
+    }
+
+    private void frmDashboard_Load(object sender, EventArgs e)
+    {
+
     }
   }
 }

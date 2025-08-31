@@ -1,0 +1,15 @@
+C:\Users\amrit\source\repos\Calculator\LabClassProject\bin\Debug\net8.0\LabClassProject.exe
+C:\Users\amrit\source\repos\Calculator\LabClassProject\bin\Debug\net8.0\LabClassProject.deps.json
+C:\Users\amrit\source\repos\Calculator\LabClassProject\bin\Debug\net8.0\LabClassProject.runtimeconfig.json
+C:\Users\amrit\source\repos\Calculator\LabClassProject\bin\Debug\net8.0\LabClassProject.dll
+C:\Users\amrit\source\repos\Calculator\LabClassProject\bin\Debug\net8.0\LabClassProject.pdb
+C:\Users\amrit\source\repos\Calculator\LabClassProject\obj\Debug\net8.0\LabClassProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrit\source\repos\Calculator\LabClassProject\obj\Debug\net8.0\LabClassProject.AssemblyInfoInputs.cache
+C:\Users\amrit\source\repos\Calculator\LabClassProject\obj\Debug\net8.0\LabClassProject.AssemblyInfo.cs
+C:\Users\amrit\source\repos\Calculator\LabClassProject\obj\Debug\net8.0\LabClassProject.csproj.CoreCompileInputs.cache
+C:\Users\amrit\source\repos\Calculator\LabClassProject\obj\Debug\net8.0\LabClassProject.sourcelink.json
+C:\Users\amrit\source\repos\Calculator\LabClassProject\obj\Debug\net8.0\LabClassProject.dll
+C:\Users\amrit\source\repos\Calculator\LabClassProject\obj\Debug\net8.0\refint\LabClassProject.dll
+C:\Users\amrit\source\repos\Calculator\LabClassProject\obj\Debug\net8.0\LabClassProject.pdb
+C:\Users\amrit\source\repos\Calculator\LabClassProject\obj\Debug\net8.0\LabClassProject.genruntimeconfig.cache
+C:\Users\amrit\source\repos\Calculator\LabClassProject\obj\Debug\net8.0\ref\LabClassProject.dll
