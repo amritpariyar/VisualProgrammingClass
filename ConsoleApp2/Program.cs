@@ -19,7 +19,7 @@ namespace ConsoleApp2
 
       string info = student.GetInfo(); // call GetInfo method
       Console.WriteLine("Hello " + info); // output to console
-
+      //git clone {url}
 
       StudentInfo student2 = new StudentInfo(); // create an instance of StudentInfo class
       student2.Name = "Ramesh"; // set Name property
