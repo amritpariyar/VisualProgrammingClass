@@ -44,6 +44,11 @@ namespace ConsoleApp2
       return $"Name: {Name}, Age: {Age}";
     }
 
+    public string GetInfo(string name, int age)
+    {
+      return $"Name: {Name}, Age: {Age}";
+    }
+
     //constructor
     //public StudentInfo(string name, int age)
     //{
